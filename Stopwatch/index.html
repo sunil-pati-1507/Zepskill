@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="heading">
+            <img src="https://cdn-icons-png.flaticon.com/512/610/610073.png" alt="">
+            <h1>STOPWATCH</h1>
+        </div>
+        <div id="display">
+            <div id="hr-box">
+                <span id="hr">00</span>
+                <span class="text">Hr</span>
+            </div>
+            <div id="min-box">
+                <span id="min">00</span>
+                <span class="text">Min</span>
+            </div>
+            <div id="sec-box">
+                <span id="sec">00</span>
+                <span class="text">Sec</span>
+            </div>
+            <div id="cen-sec-box">
+                <span id="cen-sec">00</span>
+            </div>
+        </div>
+        <div id="btn-box">
+            <button id="start" onclick="start()">START</button>
+            <button id="stop" onclick="stop()">STOP</button>
+            <button id="reset" onclick="reset()">RESET</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

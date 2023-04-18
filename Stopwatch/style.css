@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(134, 139, 141);
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    color: #fff;
+}
+
+#heading{
+    height: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+div#heading > img{
+    height: 40%;
+}
+
+div#heading > h1{
+    height: 60%;
+    width: auto;
+    font-size: 3rem;
+}
+
+#display{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hr-box, #min-box, #sec-box, #cen-sec-box{
+    width:20%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#hr, #min, #sec, #cen-sec{
+    font-size: 10rem;
+    line-height: 8.5rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.text{
+    font-size: 3rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+#btn-box{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#btn-box button{
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 3px;
+    border: 0;
+    font-size: larger;
+    color: #fff;
+    font-weight: bolder;
+}
+
+#start{
+    background-color: rgb(24, 133, 242);
+    cursor: pointer;
+    margin-right: 4rem;
+}
+
+#stop{
+    background-color: rgb(48,79,232);
+    cursor: pointer;
+    margin-right: 4rem;
+}
+
+#reset{
+    background-color: rgb(230, 10, 46);
+    cursor: pointer;
+}
