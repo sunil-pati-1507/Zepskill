@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 300vh;
+    width: 100vw;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/7ee84235806254a4862f0580aa6d5b82.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.navbar {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.logo {
+    height: 70%;
+    width: 15%;
+    margin-top: 25px;
+}
+
+.nav_links {
+    height: 50%;
+    width:60%;
+}
+
+.nav_links a {
+    text-decoration: none;
+    float: left;
+    padding: 60px;
+    font-size: 23px;
+    color: rgb(235, 231, 231);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav_links a:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.icons {
+    height: 50%;
+    width: 10%;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.icons i {
+    margin-left: 5px;
+    font-size: 18px;
+    color: white;
+}
+.icons i:hover{
+    cursor: pointer;
+}
+
+.description {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content1{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotel {
+    height: 23%;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+.hotel:hover{
+    cursor: pointer;
+    transform: rotateZ(2deg);
+    transition: 1s;
+}
+.hot_sec1{
+    height: 90%;
+    width: 45%;
+     
+    
+}
+.hot_sec2{
+    height: 90%;
+    width: 45%;
+    
+}
+.hotels_des{
+color: rgb(8, 131, 161);
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+line-height: 45px;
+}
+.hotels_para{
+font-size: 20px;
+}
+
+.temp {
+    height: 23%;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+.temp:hover{
+    cursor: pointer;
+    transform: rotateZ(2deg);
+    transition: 1s;
+}
+.temp_sec1{
+    height: 90%;
+    width: 45%;
+     
+}
+.temp_sec2{
+    height: 90%;
+    width: 45%;
+     
+}
+
+.beach {
+    height: 23%;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+.beach:hover{
+    cursor: pointer;
+    transform: rotateZ(2deg);
+    transition: 1s;
+}
+.beach_sec1{
+    height: 90%;
+    width: 45%;
+     
+}
+.beach_sec2{
+    height: 90%;
+    width: 45%;
+     
+}
+.rest {
+    height: 23%;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+.rest:hover{
+    cursor: pointer;
+    transform: rotateZ(2deg);
+    transition: 1s;
+}
+.rest_sec1{
+    height: 90%;
+    width: 45%;
+     
+}
+.rest_sec2{
+    height: 90%;
+    width: 45%;
+     
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 200px;
+}
+
+.beach, .hotel, .temp, .rest{
+    box-shadow: 0px 5px 10px 0px rgb(122, 121, 121);
+}
+
+.footer {
+    height: 5%;
+    width: 100%;
+}
